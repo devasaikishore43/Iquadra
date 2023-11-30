@@ -1,38 +1,139 @@
-.App {
-  text-align: center;
+.Sign_up_division{
+  width:100%;
+  height: 100svh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: azure;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Sign_up_1{
+  background-color: white;
+  max-width:500px;
+  width:100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius:40px;
+  border:1px solid black;
+  padding:20px 10px;
+}
+.Sign_up_heading{
+  font-size: 32px;
+  font-weight: 500;
+  padding:20px 0px;
+}
+.Name_division{
+  width:93%;
+  display: flex;
+  justify-content: space-between;
+}
+.Name_division input{
+  width:35%;
+  /* padding:4px 8px; */
+}
+.input_type{
+  width:100%;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.input_type input,textarea{
+  width:89%;
+}
+input,textarea{
+  margin:15px 0px;
+  padding: 5px 10px;
+}
+.Login_division{
+  width:100%;
+  height:100svh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Login_div{
+  max-width:450px;
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border:1px solid black;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius:40px;
+}
+.Login_heading{
+  font-size: 35px;
+  font-weight: 500;
+}
+.Buttons{
+  width:100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin:30px 0px;
+}
+.Home_division{
+  width:100%;
+  height:100svh;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Profile_division{
+  width:100%;
+  display: flex;
+  border-bottom: 2px solid black;
+}
+.Img{
+  width:200px;
+  height:200px;
+}
+.Img img{
+  width:100%;
+  height:100%;
+}
+.College_name{
+  width:75%;
+  font-size: 40px;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-left:1px solid black;
+  border-right:1px solid black
+
+}
+.Details{
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+}
+button{
+  margin:20px 0px;
+}
+.Details_ra{
+  width:100%;
+  display: flex;
+  /* flex-direction: column; */
+
+}
+.Details_ra input{
+  width:300px;
+}
+.Details_ra_1{
+  width:50%;
+  display: flex;
+  flex-direction: column;
+}
+.Details_ra_2{
+  width:50%;
+}
+.Details_ra_1_1{
+  width:fit-content;
+  display: flex;
+  flex-direction: column;
+  border:1px solid black;
+  margin-bottom: 20px;;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
